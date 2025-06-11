@@ -8,10 +8,16 @@ A **modern and secure Password Generator Web App** built using **HTML, CSS, and 
 
 ### ✨ Preview
 
-![Password Generator UI]![alt text](<Screenshot 2025-06-11 201335.png>)
+![Password Generator UI]![Screenshot 2025-06-11 201335](https://github.com/user-attachments/assets/dff09ccd-6b63-4d4a-bde5-f3f96cefa575)
+
+
+---
 
 📹 **Demo Video**:  
-[▶ Watch on Video]<video controls src="output.mp4" title="Title"></video> 
+
+https://github.com/user-attachments/assets/b83b6508-44d1-46a1-884e-f0e4c197cee7
+
+
 ---
 
 ### 🚀 Features
