@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0a0f2c, #1c1f3a);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #12172f;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 370px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.display-box {
+  background: #1e2543;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1.2rem;
+  gap: 0.4rem;
+}
+
+.display-box input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  outline: none;
+  font-family: monospace;
+}
+
+.display-btns {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.display-btns button {
+  background: #2d375f;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.slider-container input {
+  width: 60%;
+}
+
+.options label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: #1a66ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #004fd4;
+}
+
+.secondary {
+  background: #29335c;
+}
+
+canvas {
+  margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
